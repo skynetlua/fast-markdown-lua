@@ -1,2 +1,2 @@
 # fast-markdown-lua
-a lua markdown parse
+a lua markdown parser
