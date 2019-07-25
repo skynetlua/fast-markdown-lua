@@ -1,10 +1,3 @@
-# fast-markdown-lua
-Yet another Markdown parser, this time for Lua. 
-The source code just has 800 lines.
-
-## example
-
-```
 local markdown = require "markdown"
 
 local test_txt = [[
@@ -85,11 +78,5 @@ end
 local end_ts = os.time()
 print("cost time:",end_ts-start_ts, "second")
 
-```
-
-## result
-
-```
+--result
 --cost time:2 second
-
-```
