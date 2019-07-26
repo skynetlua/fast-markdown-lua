@@ -237,10 +237,10 @@ function Piece:render(parent)
 		for _,child in ipairs(self._childs) do
 			child:render(wdt)
 		end
-	elseif node[1] then
-		if node[1] ~= 'a' then
-			wdt:set(widget(node[1], self._content))
-		end
+	-- elseif node[1] then
+	-- 	if node[1] ~= 'a' then
+	-- 		wdt:set(widget(node[1], self._content))
+	-- 	end
 	else
 		if not node[5] then
 			wdt:set(self._content)
